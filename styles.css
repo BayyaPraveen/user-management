@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 8px 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+/* Add color to buttons */
+button.editBtn {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+button.editBtn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+button.deleteBtn {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+
+button.deleteBtn:hover {
+    background-color: #e53935; /* Darker red on hover */
+}
+
+button#addUserBtn {
+    background-color: #008CBA; /* Blue */
+    color: white;
+}
+
+button#addUserBtn:hover {
+    background-color: #007bb5; /* Darker blue on hover */
+}
+
+#userFormContainer {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+    display: none;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
